@@ -1,0 +1,171 @@
+/*Main styles*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-image: url('../images/header_bg.jpg');
+  background-repeat: no-repeat;
+  padding: 50px 5% 0 5%;
+}
+
+
+/*Utilities*/
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+/*Specific styles*/
+
+#logo:before {
+  content: '';
+  float: left;
+  display: block;
+  height: 79px;
+  width: 63px;
+  background-image: url('../images/logo.png');
+}
+
+.action-buttons {
+  min-width: 500px;
+}
+
+.search-btn {
+  display: block;
+  float: left;
+  position: relative;
+}
+
+.search-field {
+  float: left;
+  background-color: #343c48;
+  display: block;
+  height: 44px;
+  width: 262px;
+  color: #9da5b0;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  border-radius: 22px;
+}
+
+.search-icon {
+  position: absolute;
+  color: #9da5b0;
+  top: 0;
+  right: 20px;
+  line-height: 44px;
+  fon-size: 13px;
+}
+
+.buy-button {
+  background-color: #835fa8;
+  color: #ffffff;
+  display: block;
+  float: left;
+  width: 116px;
+  padding: 14.5px 0;
+  margin: 0 22px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 22px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hamburger-menu {
+  text-decoration: none;
+  line-height: 44px;
+}
+
+.hamburger-menu:after {
+  content: '\f0c9';
+  color: #ffffff;
+  font-family: 'FontAwesome';
+}
+
+.intro-section {
+  width: 642px;
+  padding: 180px 0;
+  float: right;
+  margin-right: 250px;
+}
+
+.intro-section h1 {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 70px;
+}
+
+.intro-section p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.section-1 {
+  min-height: 300px;
+  padding: 100px 200px;
+  background-color: #835fa8;
+  position: relative;
+}
+
+.section-1-text {
+  width: 450px;
+}
+
+.section-1-text h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.section-1-text p {
+  color: #ffffff;
+  line-height: 26px;
+}
+
+.green-btn {
+  display: inline-block;
+  border-radius: 22px;
+  text-decoration: none;
+  line-height: 44px;
+  color: #ffffff;
+  background-color: #3dd2ae;
+  height: 44px;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.iphone-image {
+  height: 594px;
+  overflow: hidden;
+  position: absolute;
+  top: -94px;
+  right: 250px;
+  z-index: 2;
+}
+
+.interface-image {
+  height: 270px;
+  overflow: hidden;
+  position: absolute;
+  top: 230px;
+  right: 487px;
+}
+
+.section-2 {
+  height: 300px;
+  background-color: #f4f8fb;
+}
