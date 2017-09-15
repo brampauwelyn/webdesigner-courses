@@ -165,7 +165,66 @@ header {
   right: 487px;
 }
 
+
+/*Section 2 */
+
 .section-2 {
-  height: 300px;
+  padding: 100px 180px;
   background-color: #f4f8fb;
+}
+
+.section-2 div:nth-child(2) {
+  margin: 0 50px;
+}
+
+.section-2 .col {
+  width: 30%;
+  display: block;
+  float: left;
+}
+
+.section-2 h3 {
+  font-size: 30px;
+  color: #2b303b;
+  font-weight: 300;
+}
+
+.section-2 .intro {
+  color: #696f7c;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section-2 .main {
+  font-size: 14px;
+  color: #44484f;
+  line-height: 28px;
+}
+
+
+/*section 3*/
+
+.section-3 {
+  background-color: #232831;
+  padding: 80px 240px 0 240px;
+}
+
+.section-3 h3 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.section-3 p {
+  color: #9da5b0;
+  font-size: 16px;
+}
+
+.section-3 img {
+  display: block;
+  float: left;
+  bottom: 0;
+  padding: 0;
 }
