@@ -225,6 +225,39 @@ header {
 .section-3 img {
   display: block;
   float: left;
-  bottom: 0;
   padding: 0;
+}
+
+
+/*Section 4*/
+
+.section-4 {
+  background-color: #2b303b;
+  padding: 80px 200px;
+}
+
+.section-4 .col {
+  margin-right: 1.33333%;
+  width: 24%;
+  display: block;
+  float: left;
+}
+
+.section-4 div:nth-child(4n+0) {
+  margin-right: 0;
+}
+
+.section-4 .col h3 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.section-4 .col h3 span {
+  color: #3a4d60;
+}
+
+.section-4 .col p {
+  color: #9da5b0;
+  font-size: 14px;
+  line-height: 26px;
 }
