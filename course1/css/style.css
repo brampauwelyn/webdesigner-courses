@@ -261,3 +261,39 @@ header {
   font-size: 14px;
   line-height: 26px;
 }
+
+
+/* FOOTER */
+
+footer {
+  padding: 100px 200px;
+  background-color: #1a2124;
+}
+
+#get-in-touch {
+  color: #f6f7fa;
+}
+
+#get-in-touch p {
+  font-size: 13px;
+  width: 572px;
+  line-height: 24px;
+}
+
+.footer-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav li {
+  list-style: none;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #f6f7fa;
+}
+
+.footer-nav li:first-child {
+  margin-bottom: 25px;
+}
