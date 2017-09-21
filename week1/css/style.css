@@ -1,0 +1,188 @@
+/*This is a class to clear floats*/
+
+.clearfix {
+  clear: both;
+}
+
+
+/*Main style*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*This is the css for the header*/
+
+header {
+  background-image: url('../images/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 891px;
+  padding: 50px 80px;
+}
+
+header nav {
+  display: block;
+  float: right;
+}
+
+.purple-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #835fa8;
+  color: #ffffff;
+  height: 45px;
+  border-radius: 24px;
+  padding: 0 30px;
+  line-height: 45px;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 15px;
+}
+
+.search-container {
+  float: left;
+  position: relative;
+}
+
+#search-field {
+  outline: none;
+  height: 45px;
+  background-color: #343c48;
+  border: none;
+  width: 200px;
+  padding: 0 30px;
+  border-radius: 22px;
+  color: #9da5b0;
+  font-size: 14px;
+}
+
+.fa-search {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  line-height: 45px;
+  color: #b2b2b2;
+}
+
+.fa-diamond {
+  font-size: 40px;
+  color: pink;
+}
+
+.fa-bars {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#intro {
+  width: 621px;
+  float: right;
+  margin: 270px 230px 0 0;
+}
+
+#intro h1 {
+  font-size: 70px;
+  line-height: 90px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+#intro p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#section-1 {
+  padding: 106px 200px 207px 200px;
+  background-color: #835fa8;
+  position: relative;
+}
+
+#section-1-text {
+  width: 464px;
+}
+
+#section-1 h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+#section-1 p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 26px;
+  margin-bottom: 35px;
+}
+
+.green-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3dd2ae;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 22px;
+  padding: 0 50px;
+}
+
+#iphone {
+  position: absolute;
+  height: 608px;
+  top: -100px;
+  right: 250px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+#interface {
+  position: absolute;
+  height: 267px;
+  bottom: 0;
+  right: 593px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#section-2 {
+  background-color: #f4f8fb;
+  padding: 80px 200px 110px 200px;
+}
+
+.col {
+  width: 31.6666666667%;
+  float: left;
+}
+
+.col h3 {
+  font-size: 30px;
+  color: #2b303b;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+.col-2 {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.col .subtitle {
+  font-size: 20px;
+  color: #696f7c;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.col .main-text {
+  font-size: 14px;
+  color: #44484f;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
