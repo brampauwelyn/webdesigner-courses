@@ -11,6 +11,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+}
+
 
 /*This is the css for the header*/
 
@@ -108,9 +114,6 @@ header nav {
 }
 
 #section-1 h2 {
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 300;
   margin-bottom: 24px;
 }
 
@@ -155,24 +158,24 @@ header nav {
   padding: 80px 200px 110px 200px;
 }
 
-.col {
+#section-2 .col {
   width: 31.6666666667%;
   float: left;
 }
 
-.col h3 {
+#section-2 .col h3 {
   font-size: 30px;
   color: #2b303b;
   font-weight: 300;
   margin-bottom: 35px;
 }
 
-.col-2 {
+#section-2 .col-2 {
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
 
-.col .subtitle {
+#section-2 .col .subtitle {
   font-size: 20px;
   color: #696f7c;
   font-weight: 300;
@@ -180,9 +183,129 @@ header nav {
   margin-bottom: 40px;
 }
 
-.col .main-text {
+#section-2 .col .main-text {
   font-size: 14px;
   color: #44484f;
   line-height: 28px;
   margin-bottom: 40px;
+}
+
+#section-3 {
+  background-color: #232831;
+  text-align: center;
+  padding: 100px 200px 0;
+}
+
+#section-3 h2 {
+  margin-bottom: 30px;
+}
+
+#section-3 p {
+  color: #9da5b0;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 90px;
+}
+
+#design-container {
+  position: relative;
+}
+
+#design-container a {
+  height: 58px;
+  line-height: 58px;
+  position: absolute;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 0.75px;
+  border: 2px solid #ffffff;
+  padding: 0 30px;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  /*How to center elements vertically & horizontally when position absolute */
+  /*https://css-tricks.com/centering-percentage-widthheight-elements/*/
+  transform: translate(-50%, -50%);
+}
+
+#design-container a:hover {
+  color: pink;
+  border-color: pink;
+}
+
+#section-4 {
+  background-color: #2b303b;
+  padding: 80px 200px;
+}
+
+#section-4 .col {
+  width: 20%;
+  float: left;
+  margin-right: 6.6666666667%;
+}
+
+#section-4 .last-col {
+  margin-right: 0;
+}
+
+#section-4 .col h3 {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 30px 0 25px;
+}
+
+#section-4 .col h3 span {
+  color: #3a4d60;
+}
+
+#section-4 .col p {
+  color: #9da5b0;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+#section-5 {
+  overflow: hidden;
+  background-color: #e9eef1;
+}
+
+#section-5 .col-1 {
+  float: left;
+  width: 50%;
+  padding: 100px 200px;
+  box-sizing: border-box;
+  /*background-color: #e9eef1;*/
+}
+
+#section-5 .col-1 h4 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #696f7c;
+  margin-bottom: 30px;
+}
+
+#section-5 .col-1 .fa-cloud-download {
+  color: #b1a0c9;
+}
+
+#section-5 .col-1 .subtitle {
+  font-size: 20px;
+  color: #696f7c;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+#section-5 .col-1 .main {
+  font-size: 14px;
+  line-height: 28px;
+  color: #44484f;
+}
+
+#section-5 .col-2 {
+  width: 50%;
+  float: left;
 }
