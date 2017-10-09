@@ -1,6 +1,13 @@
 /*This is a class to clear floats*/
 
-.clearfix {
+.clearfix:before, .clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
   clear: both;
 }
 
@@ -133,6 +140,11 @@ header nav {
   line-height: 45px;
   border-radius: 22px;
   padding: 0 50px;
+}
+
+.green-button::before {
+  font-family: 'FontAwesome';
+  content: '\f06e';
 }
 
 #iphone {
@@ -287,6 +299,12 @@ header nav {
   margin-bottom: 30px;
 }
 
+#section-5 .col-1 h4::before {
+  content: '\f0ed';
+  color: yellow;
+  font-family: 'FontAwesome';
+}
+
 #section-5 .col-1 .fa-cloud-download {
   color: #b1a0c9;
 }
@@ -299,13 +317,164 @@ header nav {
   margin-bottom: 35px;
 }
 
+#section-5 .col-1 .subtitle::first-letter {
+  font-size: 40px;
+}
+
 #section-5 .col-1 .main {
   font-size: 14px;
   line-height: 28px;
   color: #44484f;
 }
 
+#section-5 .col-1 .main::first-line {
+  font-weight: 600;
+}
+
 #section-5 .col-2 {
   width: 50%;
   float: left;
+}
+
+#section-6 {
+  height: 758px;
+  background-image: url('../images/pen.jpg');
+}
+
+#section-6 .purple {
+  background-color: #835fa8;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 90px 210px 115px;
+}
+
+#section-6 .purple p:first-child {
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 25px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#section-6 .purple img {
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+
+#section-6 .purple p {
+  display: block;
+  float: left;
+  color: #ffffff;
+  line-height: 59px;
+}
+
+footer {
+  background-color: #1a2124;
+  font-size: 13px;
+  color: #f6f7fa;
+  padding: 100px 210px;
+}
+
+footer #left {
+  width: 40%;
+  float: left;
+}
+
+footer #left .main {
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+
+footer p:first-child {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+footer ul {
+  display: block;
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  line-height: 24px;
+}
+
+footer ul li:first-child {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer #right {
+  float: left;
+  width: 40%;
+  margin-left: 100px;
+}
+
+footer #right input {
+  display: block;
+  float: left;
+  width: 400px;
+  height: 58px;
+  /*border-radius: 2px;*/
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.checkmark {
+  display: block;
+  float: left;
+  background-color: #835fa8;
+  height: 58px;
+  width: 70px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.checkmark::after {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  color: #ffffff;
+  font-size: 20px;
+}
+
+footer #right p:last-child {
+  margin-top: 20px;
+  line-height: 18px;
+}
+
+
+/*Mediaqueries*/
+
+
+/*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+
+@media screen and (max-width: 1150px) {
+  #section-1 {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  #section-1 {
+    background-color: pink;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #intro h1 {
+    display: none;
+  }
 }
