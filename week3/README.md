@@ -31,6 +31,8 @@ Je kan de klasse naam veranderen naar clearfix
 
 ```
 
+In de HTML kan je nu de clearfix klasse gebruiken om floats te clearen.
+Deze zal via het pseudo element ':after' de floats gaan clearen.
 
 ```html
 
@@ -43,4 +45,11 @@ Je kan de klasse naam veranderen naar clearfix
 ```
 
 
-### Introductie Bootstrap
+### Introductie Front-end Frameworks
+
+Er bestaan veel verschillende front-end frameworks (meestal gebaseerd op dezelfde principes).
+De meest gebruikte zijn:
+
+- http://getbootstrap.com/
+- https://foundation.zurb.com/sites.html
+- https://getuikit.com/
