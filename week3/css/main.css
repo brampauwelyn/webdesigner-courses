@@ -85,6 +85,51 @@ nav a:hover {
 
 
 /*************************
+  MEDIA QUERIES
+*************************/
+
+@media screen and (min-width: 480px) {
+  nav a {
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
+  nav li:first-child a {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    float: left;
+    font-size: 1.4em;
+  }
+  nav {
+    width: 60%;
+    float: right;
+  }
+  article section {
+    width: 45%;
+    float: left;
+  }
+  article section:nth-child(odd) {
+    margin-right: 10%;
+  }
+  aside {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .wrapper {
+    width: 1026px;
+    margin: 0 auto;
+  }
+}
+
+
+/*************************
 Clearfix
 *************************/
 
