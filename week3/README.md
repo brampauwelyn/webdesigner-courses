@@ -24,7 +24,7 @@ Voorbeeld mediaquerie:
 
 }
 
-``
+```
 
 
 Zie documentatie MDN (Mozilla Developer Network) voor meer uitleg:
