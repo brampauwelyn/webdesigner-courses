@@ -1,0 +1,69 @@
+.top-nav {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header {
+  background-color: #a085c6;
+  background-image: url('img/main-bg.png');
+  background-repeat: no-repeat;
+  background-position: 200% 100%;
+  padding: 200px 0 140px 0;
+  border-radius: 0;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-size: 63px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.light-purple {
+  color: #d5c1f2;
+}
+
+.intro-text p:first-child {
+  margin-bottom: 70px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.intro-text p:last-child {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.btn-outline-secondary {
+  border-color: #d5c1f2;
+  border-width: 2px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #ffffff;
+  color: #a085c6;
+  border-color: #ffffff;
+}
+
+.buttons a:first-child {
+  margin-right: 15px;
+}
+
+.apple::before {
+  content: '\f179';
+  font-family: 'FontAwesome';
+}
+
+.image-thumbnail {
+  background-color: #d5c1f2;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.camera::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url('img/feature-icons.png');
+}
