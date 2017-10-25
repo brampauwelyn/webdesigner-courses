@@ -1,41 +1,96 @@
-/*Styling of the square*/
-
-.square {
-  position: absolute;
-  display: block;
-  width: 200px;
-  height: 200px;
-  background-color: tomato;
-  top: 0;
-  left: 0;
+body {
   animation-name: bram;
-  animation-duration: 4s;
+  animation-duration: 500ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-direction: alternate;
 }
-
-
-/*Make animation*/
 
 @keyframes bram {
   0% {
     background-color: tomato;
-    left: 0;
-    border-radius: 0;
   }
   25% {
-    background-color: aqua;
+    background-color: yellow;
   }
   50% {
-    background-color: DarkViolet;
+    background-color: purple;
   }
   75% {
-    background-color: GreenYellow;
+    background-color: blue;
   }
   100% {
-    background-color: MediumSpringGreen;
-    left: 100%;
-    border-radius: 50%;
+    background-color: black;
+  }
+}
+
+@-webkit-keyframes bram {
+  0% {
+    background-color: tomato;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: purple;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@-o-keyframes bram {
+  0% {
+    background-color: tomato;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: purple;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@-moz-keyframes bram {
+  0% {
+    background-color: tomato;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: purple;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes ibram {
+  0% {
+    background-color: tomato;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: purple;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: black;
   }
 }

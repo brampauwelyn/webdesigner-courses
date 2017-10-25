@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+  </head>
+
+  <style>
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .col {
+      width: 30%;
+      height: 200px;
+      background-color: green;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+  </style>
+  <body>
+
+    <div class="container">
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#">test</a>
+        </li>
+        <li>
+          <a href="#">lange link</a>
+        </li>
+        <li>
+          <a href="#">nog langere link</a>
+        </li>
+        <li>
+          <a href="#">nog langere dan de langste link</a>
+        </li>
+      </ul>
+    </nav>
+
+  </body>
+</html>

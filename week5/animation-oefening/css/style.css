@@ -1,0 +1,49 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: repeat-x;
+  background-size: 105%;
+  animation-name: background;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.mario {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  animation-name: mario;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mario {
+  0% {
+    left: 0;
+  }
+  10% {
+    bottom: 200px;
+  }
+  20% {
+    bottom: 70px;
+  }
+  60% {
+    bottom: 250px;
+  }
+  65% {
+    bottom: 90px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes background {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2000% 0;
+  }
+}
