@@ -1,0 +1,54 @@
+body {
+  padding: 80px;
+  font-family: system-ui, "Segoe UI", Tahoma;
+  color: #fff;
+  background: #56CCF2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section {
+  margin: 50px 0;
+}
+
+
+/*Define general common styling for buttons*/
+
+.button-1, .button-2 {
+  display: block;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+/*Define specific styling for buttons*/
+
+.button-1 {
+  background: #4AC29A;
+  /*CSS transitions*/
+  transition-property: background;
+  transition-duration: .5s;
+}
+
+.button-1:hover {
+  background: #45B649;
+}
+
+.button-2 {
+  background: #4568DC;
+  transition-property: background, width, border-radius;
+  transition-duration: .5s;
+}
+
+.button-2:hover {
+  background: #B06AB3;
+  width: 250px;
+  border-radius: 10px;
+}
