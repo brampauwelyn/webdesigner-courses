@@ -14,6 +14,11 @@ section {
   margin: 50px 0;
 }
 
+img {
+  display: block;
+  margin-top: 10px;
+}
+
 
 /*Define general common styling for buttons*/
 
@@ -51,4 +56,109 @@ section {
   background: #B06AB3;
   width: 250px;
   border-radius: 10px;
+}
+
+
+/*CSS Transforms*/
+
+
+/*1. Rotate Image*/
+
+.dog {
+  transform: rotate(0);
+  transition: transform .5s;
+}
+
+.dog:hover {
+  transform: rotate(45deg);
+}
+
+
+/*2. SkewX Image*/
+
+.child {
+  transform: skewX(0);
+  transition: transform .5s;
+}
+
+.child:hover {
+  transform: skewX(10deg);
+}
+
+
+/*3. SkewY Image*/
+
+.child-2 {
+  transform: skewY(0);
+  transition: transform .5s;
+}
+
+.child-2:hover {
+  transform: skewY(10deg);
+}
+
+
+/*4. Scale Image*/
+
+.norway, .norway-2 {
+  transform: scale(1);
+  transition: transform .5s;
+}
+
+.norway:hover, .norway-2:hover {
+  transform: scale(1.5);
+}
+
+
+/*Change the transform origin */
+
+.norway-2 {
+  transform-origin: 0 0;
+}
+
+
+/*TranslateX*/
+
+.fox {
+  transform: translateX(0);
+  transition: transform .5s;
+}
+
+.fox:hover {
+  transform: translateX(100px);
+}
+
+
+/*TranslateY*/
+
+.fox-2 {
+  transform: translateY(0);
+  transition: transform .5s;
+}
+
+.fox-2:hover {
+  transform: translateY(100px);
+}
+
+
+/* 3D Transforms*/
+
+.space-container {
+  perspective: 1000px;
+}
+
+.space {
+  transition: transform .5s;
+}
+
+.space:hover {
+  transform: rotateY(180deg);
+}
+
+.space-3d {
+  transition: transform .5s;
+}
+
+.space-3d:hover {
+  transform: rotate3d(1, 1, 1, 65deg);
 }
