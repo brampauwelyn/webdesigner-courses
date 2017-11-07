@@ -2,7 +2,7 @@
 ## Waarom CSS transitions?
 ![](README/README/hover.png)
 
-Bv. bij **hover** op button verander je het achtergrondkleur van de button. Als je dan hovered over deze button dan zie je dat achtergrondkleur onmiddellijk verandert. 
+Bv. bij **hover** op button verander je het achtergrondkleur van de button. Als je dan hovered over deze button dan zie je dat achtergrondkleur onmiddellijk verandert.
 
 We kunnen deze overgang gaan animeren via CSS transitions
 
@@ -29,7 +29,7 @@ Om CSS transitions te maken hebben we volgende CSS properties ter beschikking zi
 - **transition-timing-function** (op welke manier gebeurt de transition?)
 - **transition-delay** (na hoeveel tijd begint de transition?)
 
-**Shorthand** 
+**Shorthand**
 Je kan natuurlijk ook gebruik maken van de shorthand notatie
 
 ```css
@@ -39,16 +39,16 @@ transition: background-color .5s linear;
 ```
 
 
-## Welke CSS properties zijn animeerbaar? 
+## Welke CSS properties zijn animeerbaar?
 We hebben dus al gezien dat we o.a. background-color kunnen gaan animeren. Natuurlijk zijn **niet** alle css-properties animeerbaar.
 
 Hier vind je de lijst met alle animeerbare CSS properties:
-[CSS Transitions](https://www.w3.org/TR/css3-transitions/#animatable-properties)
+[Lijst met animeerbare css properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
 
 Of hier een interactieve demo van alle animeerbare css properties:
 [Animatable: One property, two values, endless possibilities](http://leaverou.github.io/animatable/)
 
-**Opmerking:** je ziet bijvoorbeeld dat de CSS property “display” niet op deze lijst staat. 
+**Opmerking:** je ziet bijvoorbeeld dat de CSS property “display” niet op deze lijst staat.
 
 
 ## Meerdere CSS properties animeren?
@@ -146,7 +146,7 @@ Een voorbeeld van 3D animatie in de browser:
 ![](README/README/Screen%20Shot%202017-11-04%20at%2021.44.17.png)
 
 
-Om 3D transforms toe te passen moet je eerst “perspectief “ gaan toevoegen aan de pagina. 
+Om 3D transforms toe te passen moet je eerst “perspectief “ gaan toevoegen aan de pagina.
 
 ```css
 .container{
@@ -166,10 +166,3 @@ Vervolgens kan je transforms gaan doen
 }
 
 ```
-
-
-
-
-
-
-

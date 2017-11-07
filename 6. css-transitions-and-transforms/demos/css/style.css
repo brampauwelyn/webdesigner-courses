@@ -48,13 +48,11 @@ img {
 
 .button-2 {
   background: #4568DC;
-  transition-property: background, width, border-radius;
-  transition-duration: .5s;
+  transition-duration: 5s;
+  transition-property: border-radius;
 }
 
 .button-2:hover {
-  background: #B06AB3;
-  width: 250px;
   border-radius: 10px;
 }
 
