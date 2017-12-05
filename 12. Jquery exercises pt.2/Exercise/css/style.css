@@ -31,7 +31,10 @@
   border-radius: 50%;
 }
 
+.row1 {
+  top: 118px;
+}
+
 .button1 {
   right: 122px;
-  top: 118px;
 }
