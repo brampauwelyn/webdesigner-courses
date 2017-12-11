@@ -1,0 +1,59 @@
+/* System Fonts as used by GitHub */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: #FF5F6D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC371, #FF5F6D);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fcfcfc;
+  height: 500px;
+  display: block;
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.image-holder {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.image-holder img {
+  padding: 0;
+  margin: 0;
+  transition: transform .5s;
+}
+
+.card:hover .image-holder img {
+  transform: scale(1.1);
+}
+
+.content {
+  padding: 20px;
+}
