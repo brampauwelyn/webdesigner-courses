@@ -1,0 +1,24 @@
+body {
+  background-color: #FF4C4C;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 64px;
+  font-family: 'Chela One', cursive;
+}
+
+.character {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid green;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.word-placeholder {
+  margin: 0 auto;
+}
