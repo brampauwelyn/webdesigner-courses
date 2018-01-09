@@ -1,0 +1,22 @@
+.slider {
+  width: 500px;
+  overflow: hidden;
+}
+
+.slider ul {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 5000px;
+  left: 0;
+}
+
+.slider ul li {
+  display: block;
+  float: left;
+}
+
+.slider ul li img {
+  width: 500px;
+}
