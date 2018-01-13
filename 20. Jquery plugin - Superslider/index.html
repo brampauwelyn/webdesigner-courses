@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Slider</title>
+    <link rel="stylesheet" href="css/superslides.css">
+  </head>
+  <body>
+
+    <div id="slides">
+      <div class="slides-container">
+        <img src="img/coco1.jpg" alt="">
+        <img src="img/coco2.jpg" alt="">
+        <img src="img/coco3.jpg" alt="">
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script>
+      $('#slides').superslides({play: 3000});
+    </script>
+  </body>
+</html>

@@ -1,4 +1,5 @@
 .slider {
+  position: relative;
   width: 500px;
   overflow: hidden;
 }
@@ -10,6 +11,7 @@
   padding: 0;
   width: 5000px;
   left: 0;
+  transition: all 500ms;
 }
 
 .slider ul li {
@@ -19,4 +21,24 @@
 
 .slider ul li img {
   width: 500px;
+}
+
+.circle-container {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  transform: translateX(-50%);
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 2px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.circle.active {
+  background: #fff;
 }
