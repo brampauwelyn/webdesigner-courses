@@ -1,0 +1,19 @@
+body {
+  background-color: #F5F5F5;
+}
+
+.imagecontainer {
+  width: 900px;
+  margin: 50px auto;
+  background-color: #D8ABFF;
+}
+
+.imagecontainer img {
+  display: block;
+  float: left;
+  margin: 25px;
+}
+
+.clearfix {
+  clear: both;
+}
