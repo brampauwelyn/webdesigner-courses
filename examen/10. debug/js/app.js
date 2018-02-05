@@ -2,11 +2,11 @@ var students = [
   {
     firstName: "John",
     lastName: "Snow"
-  }
+  },
   {
     firstName: "Daenerys",
     lastName: "Targaryen"
-  }
+  },
   {
     firstName: "Arya",
     lastName: "Stark"
@@ -15,5 +15,5 @@ var students = [
 
 
 for (var i = 0; i < students.length; i++) {
-  $('students').append('<li>'+students.firstName students.lastName +'</li>')
+  $('.students').append('<li>'+students[i].firstName + " " + students[i].lastName +'</li>');
 }
