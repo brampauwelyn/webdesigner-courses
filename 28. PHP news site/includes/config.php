@@ -1,5 +1,5 @@
 <?php
-$db = 'movies';
+$db = 'Flash';
 $dbuser = 'root';
 $dbpass = 'root';
 $dbtype = 'mysql';
