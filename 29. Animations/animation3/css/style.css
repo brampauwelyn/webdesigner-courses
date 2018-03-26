@@ -1,0 +1,33 @@
+body{
+  animation: disco 2s linear infinite alternate;
+  background-color: #b78e6d;
+}
+
+@-webkit-keyframes disco {
+  0%{background-color: #b78e6d;}
+  25%{background-color:#e9872e;}
+  50%{background-color:#c38c34;}
+  75%{background-color:#e25381;}
+  100%{background-color:#dd5338;}
+}
+@-o-keyframes disco {
+  0%{background-color: #b78e6d;}
+  25%{background-color:#e9872e;}
+  50%{background-color:#c38c34;}
+  75%{background-color:#e25381;}
+  100%{background-color:#dd5338;}
+}
+@-moz-keyframes disco {
+  0%{background-color: #b78e6d;}
+  25%{background-color:#e9872e;}
+  50%{background-color:#c38c34;}
+  75%{background-color:#e25381;}
+  100%{background-color:#dd5338;}
+}
+@keyframes disco {
+  0%{background-color: #b78e6d;}
+  25%{background-color:#e9872e;}
+  50%{background-color:#c38c34;}
+  75%{background-color:#e25381;}
+  100%{background-color:#dd5338;}
+}

@@ -1,0 +1,62 @@
+.image-container{
+  width: 400px;
+  height: 400px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  margin-right: 40px;
+}
+
+.image-bg{
+  width: 400px;
+  height: 400px;
+  background-position: center;
+}
+
+.photo1{
+  background-image: url('../images/photo1.jpg');
+  transition: background-size .5s;
+  background-size: 150%;
+}
+
+.photo2{
+  background-image: url('../images/photo2.jpg');
+  background-size: 140%;
+  transition-property:  background-size, filter;
+  transition-duration: .35s, .35s;
+  filter: grayscale(80%);
+}
+
+.overlay{
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background: rgba(0,0,0,0.8);
+  transition: top .35s;
+}
+
+.overlay p{
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+
+.image-container:hover .image-bg{
+  background-size: 200%;
+}
+
+.image-container:hover .photo2{
+  filter: grayscale(0);
+}
+
+.image-container:hover .overlay{
+  top:0;
+}
